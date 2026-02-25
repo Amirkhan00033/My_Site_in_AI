@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Амирхан Веб-мастер | Создание сайтов</title>
+    <!-- Подключение шрифтов Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- НАВИГАЦИЯ -->
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">Амирхан.Dev</div>
+            <div class="nav-links">
+                <a href="#">Портфолио</a>
+                <a href="#">Услуги</a>
+                <a href="#">Процесс</a>
+                <a href="#">Контакты</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- ГЛАВНАЯ СЕКЦИЯ -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Создаю сайты, <br><span class="highlight">которые работают</span> на тебя</h1>
+                <p>Разработка под ключ: от лендинга до интернет-магазина. Современный дизайн, высокая скорость и забота о твоём бизнесе.</p>
+                <div class="btn-group">
+                    <a href="#" class="btn btn-primary">Обсудить проект</a>
+                    <a href="#" class="btn btn-outline">Портфолио</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-code"></i></div>
+                    <div class="stat-text"><h3>Более 50 проектов</h3><p>Реализовано за 3 года</p></div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-rocket"></i></div>
+                    <div class="stat-text"><h3>Скорость и качество</h3><p>Современный стек (React / Vue / Laravel)</p></div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-headset"></i></div>
+                    <div class="stat-text"><h3>Поддержка 24/7</h3><p>Всегда на связи после сдачи</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПОРТФОЛИО -->
+    <section style="padding: 60px 0;">
+        <div class="container">
+            <h2 class="section-title">Последние работы</h2>
+            <div class="section-sub">Каждый проект уникален и заточен под задачи клиента</div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-img"><i class="fas fa-store"></i></div>
+                    <div class="portfolio-info">
+                        <h3>Интернет-магазин “WearStyle”</h3>
+                        <p>Полностью кастомная разработка на Next.js + Shopify</p>
+                        <span class="tag">Next.js</span>
+                        <span class="tag">Shopify</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img"><i class="fas fa-briefcase"></i></div>
+                    <div class="portfolio-info">
+                        <h3>Корпоративный сайт “FinCorp”</h3>
+                        <p>Современный дизайн, анимации, интеграция с 1С</p>
+                        <span class="tag">Vue.js</span>
+                        <span class="tag">Laravel</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="portfolio-info">
+                        <h3>Лендинг “Digital Agency”</h3>
+                        <p>Креативный одностраничник с высоким conversion rate</p>
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">GSAP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПРОЦЕСС РАБОТЫ -->
+    <section style="padding: 40px 0;">
+        <div class="container">
+            <h2 class="section-title">Как я работаю</h2>
+            <div class="process-steps">
+                <div class="step"><div class="step-number">01</div><h4>Анализ</h4><p style="color:#aaa;">Изучаю нишу и конкурентов</p></div>
+                <div class="step"><div class="step-number">02</div><h4>Прототип</h4><p style="color:#aaa;">Создаю структуру и логику</p></div>
+                <div class="step"><div class="step-number">03</div><h4>Дизайн</h4><p style="color:#aaa;">Современный UI/UX</p></div>
+                <div class="step"><div class="step-number">04</div><h4>Верстка</h4><p style="color:#aaa;">Чистый код и адаптив</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФУТЕР И КОНТАКТЫ -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>© 2025 Амирхан Веб-мастер. Разработка сайтов на заказ.</p>
+        </div>
+    </footer>
+
+    <!-- ========== ЧАТ С ИИ ========== -->
+    <div class="chat-toggle" id="chatToggle">
+        <i class="fas fa-robot"></i>
+    </div>
+
+    <div class="chat-box" id="chatBox">
+        <div class="chat-header">
+            <span><i class="fas fa-brain" style="margin-right: 8px;"></i> AI Ассистент (по делу)</span>
+            <span id="closeChat" style="cursor:pointer;">✖</span>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">Привет! Я ИИ-помощник. Расскажу про услуги, сроки или цену. Что тебя интересует?</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Напишите сообщение..." autocomplete="off">
+            <button id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+            const chatToggle = document.getElementById('chatToggle');
+            const chatBox = document.getElementById('chatBox');
+            const closeChat = document.getElementById('closeChat');
+            const sendBtn = document.getElementById('sendBtn');
+            const userInput = document.getElementById('userInput');
+            const chatMessages = document.getElementById('chatMessages');
+
+            // Открыть/закрыть чат
+            chatToggle.addEventListener('click', () => {
+                chatBox.style.display = 'flex';
+                chatToggle.style.display = 'none';
+            });
+
+            closeChat.addEventListener('click', () => {
+                chatBox.style.display = 'none';
+                chatToggle.style.display = 'flex';
+            });
+
+            // Функция добавления сообщения
+            function addMessage(text, sender) {
+                const messageDiv = document.createElement('div');
+                messageDiv.classList.add('message', sender === 'user' ? 'user-message' : 'bot-message');
+                messageDiv.textContent = text;
+                chatMessages.appendChild(messageDiv);
+                // Скролл вниз
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            // Простая ИИ-логика (ответы по делу, без воды)
+            function getAIResponse(userText) {
+                const text = userText.toLowerCase();
+                
+                if (text.includes('цена') || text.includes('стоит') || text.includes('сколько')) {
+                    return "Стоимость разработки зависит от сложности. Лендинг от 50 000₽, интернет-магазин от 150 000₽. Точную цену скажу после брифа.";
+                } else if (text.includes('срок') || text.includes('время') || text.includes('быстро')) {
+                    return "Сроки: лендинг — 5-7 дней, сайт компании — 2-3 недели, интернет-магазин — от 4 недель.";
+                } else if (text.includes('технологи') || text.includes('стек') || text.includes('на чем пишете')) {
+                    return "Использую современный стек: HTML/CSS/JS, React, Vue, Node.js, PHP (Laravel), базы данных MySQL/PostgreSQL.";
+                } else if (text.includes('портфолио') || text.includes('работы') || text.includes('примеры')) {
+                    return "Портфолио можно посмотреть выше на сайте. Есть примеры магазинов, корпоративных сайтов и лендингов.";
+                } else if (text.includes('контакт') || text.includes('связаться') || text.includes('телефон')) {
+                    return "Связаться можно по почте example@dev.ru или в телеграм @alexweb. Отвечаю быстро.";
+                } else if (text.includes('привет') || text.includes('здравствуй')) {
+                    return "Здравствуйте! Готов ответить на вопросы о разработке.";
+                } else {
+                    return "Я здесь, чтобы помочь по делу. Спросите про услуги, цены, сроки, технологии или примеры работ.";
+                }
+            }
+
+            // Отправка сообщения
+            function sendMessage() {
+                const userText = userInput.value.trim();
+                if (userText === '') return;
+
+                // Добавляем сообщение пользователя
+                addMessage(userText, 'user');
+                userInput.value = '';
+
+                // Имитация задержки, как будто ИИ думает
+                setTimeout(() => {
+                    const botResponse = getAIResponse(userText);
+                    addMessage(botResponse, 'bot');
+                }, 500);
+            }
+
+            sendBtn.addEventListener('click', sendMessage);
+
+            userInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+
+        });
+</script>
+</html>
