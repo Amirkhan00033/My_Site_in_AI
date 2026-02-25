@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=600&height=100&lines=Алексей+Веб-Мастер;Создание+сайтов+на+заказ;Modern+UI%2FUX+Design" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=600&height=100&lines=Амирхан+Веб-Мастер;Создание+сайтов+на+заказ;Modern+UI%2FUX+Design" alt="Typing SVG" />
   
   [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/tvoy_login)
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tvoy_login)
